@@ -1,0 +1,40 @@
+html, body {
+  color: white;
+  height: 100%;
+  width: 100%;
+  font-family: 'Fira Code', monospace;
+  background: url(popchoppiggies.jpg) no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+}
+
+h1 {
+  font-size: 8em;
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 5em;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content__contact {
+  font-size: 2em;
+  border: 5px solid white;
+  padding: 0 20px;
+}
