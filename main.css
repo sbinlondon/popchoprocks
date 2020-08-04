@@ -3,8 +3,8 @@ html, body {
   height: 100%;
   width: 100%;
   font-family: 'Fira Code', monospace;
-  background-color: coral,
-  background: url(pineapple-supply-co-s74-lwoDFOw-unsplash.jpg) no-repeat center center fixed;
+  background-color: peachpuff,
+  background: url(pineapplepeegs.jpg) no-repeat center center fixed;
   background-size: cover;
   margin: 0;
 }
@@ -32,10 +32,4 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.content__contact {
-  font-size: 2em;
-  border: 5px solid white;
-  padding: 0 20px;
 }
